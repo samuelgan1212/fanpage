@@ -44,23 +44,64 @@ a {
     font-size: 50px;
     color:#6be00b;
 }
-.rightPane{
+.leftPane{
     display:flex;
     justify-content:flex-end;
-}
-.rightintro{
+    width:50%;
     color:#efef1f;
-    width:30%;
-    font-size:20px;
 }
 .leftintro{
     color:#efef1f;
-    width:30%;
-    font-size:25px;
+    font-size:20px;
 }
 .owpic{
-    width:70%;
+    display: flex;
+    justify-content:center;
+    border: 13px solid #efef1f ;
+    
 }
-.leftPane{
+
+.aboutMain{
     display: flex;
 }
+p{
+    color:#efef1f;
+}
+.gallery1{
+    display: flex;
+}
+.thumbnail1{
+    width:50%;
+}
+.thumbnail2{
+    width:50%;
+}
+.gallery2{
+    display: flex;
+}
+.thumbnail3{
+    width:50%;
+
+}
+.thumbnail4{
+    width:50%;
+}
+.thumbnail-image1{
+    height:225px;
+    width: 340px;
+}
+.thumbnail-image2{
+    height:400px;
+    width: 200px;
+}
+.thumbnail-image3{
+    height:250px;
+    width: 450px;
+    border: 13px solid pink ;
+}
+.thumbnail-image4{
+    height:255px;
+    width: 600px;
+}
+
+
